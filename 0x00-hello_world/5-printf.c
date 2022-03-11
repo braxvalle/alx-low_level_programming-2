@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main -entry point
+ * main - this shows the output "with proper grammar, but the outcome is a piece of art
  *
  * return: o if successful, non-zero otherwise
  */
