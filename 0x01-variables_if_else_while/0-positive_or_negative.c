@@ -4,7 +4,7 @@
 /** 
  * more headers goes there
  * main - Entry point of the program
- * Return: 0 always (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
