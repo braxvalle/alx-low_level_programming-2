@@ -5,13 +5,12 @@
  */
 int main(void)
 {
-	int j;
-	char ch;
+	char digit;
 
-	for (j = 0; j <= 9; j++)
-		putchar(j);
-	for (ch = 'a'; ch <= 'f'; ch++)
-		putchar(ch);
+	for (digit = 0; digit <= 9; digit++)
+		putchar(digit);
+	for (digit = 'a'; digit <= 'f'; digit++)
+		putchar(digit);
 	putchar('\n');
 	return (0);
 }
