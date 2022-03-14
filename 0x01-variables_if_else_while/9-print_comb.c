@@ -5,11 +5,11 @@
  */
 int main(void)
 {
-        int j;
+	int j;
 
-        for (j = '0'; j <= '9'; j++)
+	for (j = 0; j <= 9; j++)
 	{
-                putchar(j + '0');
+        putchar(j + '0');
         if (j < 9)
 	{
         putchar(',');
