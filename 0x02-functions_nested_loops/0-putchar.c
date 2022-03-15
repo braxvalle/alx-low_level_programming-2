@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include "main.h"
+
 /**
  * main - prints the output
  * Return: always 0
