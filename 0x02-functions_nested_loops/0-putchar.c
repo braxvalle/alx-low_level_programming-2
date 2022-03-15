@@ -3,7 +3,7 @@
  * main - prints _putchar
  * Return: always 0 (Success)
  */
-int main(void)
+int main()
 {
 	putchar("_putchar");
 	putchar('\n');
