@@ -4,7 +4,7 @@
  * print_times_table - outputs the n times table, starting with 0
  * @n: number of the times table
  */
-void print_times_table(int n)
+void print_times_table(int n int m int a)
 {
 int i, j, k;
 if (n >= 0 && n <= 15)
