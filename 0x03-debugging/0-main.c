@@ -3,6 +3,7 @@
 #include <stdio.h>
 /**
  * main - Gives correct output when given a case of 0
+ * positive_or_negative: checks if number is positive or negative
  * Return: Always 0 (Success)
  */
 int main(void)
