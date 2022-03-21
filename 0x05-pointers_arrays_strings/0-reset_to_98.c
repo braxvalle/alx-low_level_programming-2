@@ -2,9 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - updates parameter to 98
- *
- * reset_to_98: returns nothing
+ * reset_to_98 - updates parameter to 98
+ *Return: always 0
  */
 void reset_to_98(int *n)
 {
