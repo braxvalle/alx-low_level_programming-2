@@ -4,7 +4,7 @@
  * @s: represents the string
  * Return: returns nothing
  */
-void _print_rev(char *s)
+void print_rev(char *s)
 {
 	int j;
 
