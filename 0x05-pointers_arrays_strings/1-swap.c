@@ -3,9 +3,9 @@
  * swap_int - swaps two integers's values
  * @a: one of the integers
  * @b: the second integer
- * Return: always (0)
+ * Return: always 0
  */
-void swap_int(int *a int *b)
+void swap_int(int *a, int *b)
 {
 	int num;
 
