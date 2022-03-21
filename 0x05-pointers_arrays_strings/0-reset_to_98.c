@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - check the code 
+ * main - check the code
+ *
  * Return: Always 0.
  */
 int main(void)
@@ -12,7 +13,7 @@ int main(void)
 
     n = 402;
     p = &n;
-    printf("n=%d\n", n);
+    /*printf("n=%d\n", n);*/
     /*reset_to_98(&n);*/
     *p = 98;
     printf("n=%d\n", n);
