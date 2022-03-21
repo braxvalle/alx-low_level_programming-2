@@ -19,11 +19,11 @@ void rev_string(char *s)
 		c++;
 		i++;
 	}
-	j= i - 1;
-	for ( ; m < ((1 / 2) + 1); m++)
+	j = i - 1;
+	for ( ; m < ((1 / 2) + 1) ; m++)
 	{
-		n= (j - m);
-		k= s[m];
+		n = (j - m);
+		k = s[m];
 		s[m] = s[n];
 		s[n] = k;
 	}
