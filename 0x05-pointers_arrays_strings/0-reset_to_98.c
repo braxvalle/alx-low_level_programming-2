@@ -4,7 +4,7 @@
 /**
  * main - updates parameter to 98
  *
- * Return: Always 0.
+ * reset_to_98: returns nothing
  */
 void reset_to_98(int *n)
 {
