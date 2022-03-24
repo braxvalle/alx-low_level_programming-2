@@ -3,7 +3,7 @@
  * _strcat - concetenates 2 strings
  * @dest: represents where the string is joined
  * @src: represents the joiner
- * Return: always 0
+ * Return: returns destination
  */
 char *_strcat(char *dest, char *src);
 {
