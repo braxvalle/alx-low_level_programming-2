@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strncat - concetenates twostrings with n bytes
- * @dest; destination
+ * @dest: destination
  * @src: source
  * @n: the number of bytes
  * Return: returns concetenated string
