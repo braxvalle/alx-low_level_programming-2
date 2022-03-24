@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcat - concetenates 2 strings
+ * _strcat - concetenates two strings
  * @dest: represents where the string is joined
  * @src: represents the joiner
  * Return: returns destination
