@@ -5,7 +5,7 @@
  * @src: represents the joiner
  * Return: returns destination
  */
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 	int a;
 	int b;
