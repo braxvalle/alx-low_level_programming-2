@@ -3,6 +3,7 @@
  * _strncat - concetenates twostrings with n bytes
  * @dest; destination
  * @src: source
+ * @n: the number of bytes
  * Return: returns concetenated string
  */
 char *_strncat(char *dest, char *src, int n)
