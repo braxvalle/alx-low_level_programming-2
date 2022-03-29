@@ -7,12 +7,15 @@
  * @n: an unsigned integer
  * Return: returns pointer
  */
-char *_memset(char *s, char b, unsigned int n)
+void *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int index;
-	unsigned char *memory = s, value = c;
+	unsigned int j;
 
-	for (index = 0; index < n; index++)
-		memory[index] = value;
-	return (memory);
+	j = 0;
+	while (j < n)
+	{
+		s[j] = b;
+	}
+	j++;
+	return (s);
 }
