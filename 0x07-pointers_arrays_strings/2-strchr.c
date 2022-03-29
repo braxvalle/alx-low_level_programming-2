@@ -5,20 +5,15 @@
  * @c: a character
  * Return: returns the character
  */
-void *_strchr(char *s, char c)
+char *_strchr(char *s, char c)
 {
-	char ch;
-	int j;
+	int index;
 
-	for (s[j] = '0'; s[j] != '\0'; j++)
+	for (index = 0; s[index] >= '\0'; index++)
 	{
-
-		if (j == 'ch')
-		{
-			s[j] = c;
-		}
-		else
-			s[j] = 0;
+		if (s[index] == c)
+			return (s + index);
 	}
-	return (s);
+
+	return ('\0');
 }
