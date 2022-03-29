@@ -7,7 +7,7 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int len;
+	unsigned int len;
 
 	len = 0;
 
