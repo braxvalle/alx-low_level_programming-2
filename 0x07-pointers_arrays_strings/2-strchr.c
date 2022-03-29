@@ -17,10 +17,7 @@ void *_strchr(char *s, char c)
 			s[j] = c;
 		}
 		else
-		{
 			s[j] = NULL;
-		}
 	}
 	return (s);
 }
-
