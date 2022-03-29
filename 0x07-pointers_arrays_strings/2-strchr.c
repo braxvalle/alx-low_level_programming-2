@@ -3,8 +3,9 @@
  * _strchr - locates a character in a string
  * @s: the string
  * @c: a character
+ * Return: returns the character
  */
-char *_strchr(char *s, char c)
+void *_strchr(char *s, char c)
 {
 	char ch;
 	int j;
