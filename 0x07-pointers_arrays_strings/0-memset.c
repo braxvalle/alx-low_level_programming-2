@@ -5,7 +5,7 @@
  * @s: pointer
  * @b: constant byte
  * @n: an unsigned integer
- * Return: nothing
+ * Return: returns pointer
  */
 void *_memset(char *s, char b, unsigned int n)
 {
@@ -15,4 +15,5 @@ void *_memset(char *s, char b, unsigned int n)
 	{
 		s[j] = b;
 	}
+	return (s);
 }
