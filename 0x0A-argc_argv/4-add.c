@@ -31,7 +31,7 @@ int num_checker(char *a)
  * @argv: argument string
  * Return: result of addition
  **/
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
         int i, num, sum;
 
